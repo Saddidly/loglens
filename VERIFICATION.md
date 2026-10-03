@@ -8,8 +8,13 @@ Strict C11 compilation and CMake build/CTest passed. The CLI suite passed 14 tes
 
 ## Environment and limits
 
-Windows Clang 19 through Zig 0.14.1; Python 3.12.14. Linux/MSVC CI is configured but has not run on GitHub.
+Windows Clang 19 through Zig 0.14.1; Python 3.12.14. Linux GCC and Windows MSVC hosted checks also passed; see the linked evidence below.
 
-The checked-in CI workflow is ready to run when published. It is configuration,
-not evidence of a hosted pass. Re-run README commands after changing dependencies
-or moving to another platform. Screenshots, where included, use synthetic data.
+## Hosted evidence
+
+[GitHub Actions run](https://github.com/Saddidly/loglens/actions/runs/37111250099) passed on 2026-10-03 for code revision `aaf7db0d92282d12b5036c975e2932ee3273e4ca`.
+
+Ubuntu GCC and Windows MSVC; CMake build and CLI tests.
+
+These checks cover the named environments and cases, not every possible input or platform. Re-run README commands after changing dependencies or moving to another platform. Screenshots and acceptance data are synthetic.
+
