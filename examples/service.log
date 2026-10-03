@@ -1,0 +1,6 @@
+2026-01-05T10:00:01 INFO server listening on port 8080
+2026-01-05T10:00:02 ERROR request 812 upstream timeout
+2026-01-05T10:00:03 WARN connection 42 retry attempt 1
+2026-01-05T10:00:04 ERROR request 913 upstream timeout
+2026-01-05T10:00:05 ERROR request 914 upstream timeout
+2026-01-05T10:00:06 INFO request 915 completed
